@@ -6,15 +6,16 @@ import {GoogleLogin, GoogleLogout} from 'react-google-login'
 import {AiOutlineLogout} from 'react-icons/ai'
 import {BiSearch} from 'react-icons/bi'
 import { IoMdAdd } from 'react-icons/io'
+import Logo from '../utils/logoWaveless.svg';
 
 const Navbar = () => {
   return (
     <div>
-      <Link>
+      <Link href="/">
        <div>
         <Image
           className='cursoer-pointer'
-          src={}
+          src={Logo}
         />
        </div>
       </Link>
