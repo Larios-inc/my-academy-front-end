@@ -16,6 +16,8 @@ const Navbar = () => {
         <Image
           className='cursoer-pointer'
           src={Logo}
+          alt="LOGO"
+          // layout='responsive' this make the logo too huge 
         />
        </div>
       </Link>
